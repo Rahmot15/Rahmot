@@ -1,0 +1,35 @@
+.center{
+    text-align: center;
+}
+
+.page{
+    display: inline-block;
+}
+
+.page a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid #ddd;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    
+}
+
+.page a.active{
+    background-color: green;
+    color: white;
+}
+
+.page a:hover:not(.active){
+    background-color: #ddd;
+}
+
+/* .colum{
+    column-width: 300px;
+} */
+
+.colum p{
+    column-count: 4;
+    column-rule: 2px solid #ddd;
+}

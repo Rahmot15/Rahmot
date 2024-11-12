@@ -1,0 +1,34 @@
+/* specified attribute */
+a[target]{
+    color: fuchsia;
+}
+
+/* specified attribute and value */
+a[target="_self"]{
+    color: red;
+}
+
+/* spesific al clue */
+p[class~="para"]{
+    color: gold;
+}
+
+/* first new- all paragraph */
+p[class|="new"]{
+    color: rebeccapurple;
+}
+
+/* first new all paragraph */
+p[class^="new"]{
+    color: forestgreen;
+}
+
+/* last para all paragraph */
+p[class$="para"]{
+    color: brown;
+}
+
+/* middle gra  */
+p[class*="gra"]{
+    color: hotpink;
+}

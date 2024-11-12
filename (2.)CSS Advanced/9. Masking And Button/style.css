@@ -1,0 +1,22 @@
+/* img{
+    -webkit-mask-image: url(w3logo.png);
+  mask-image: url(w3logo.png);
+  mask-repeat: no-repeat;
+} */
+
+button{
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid rgb(0, 26, 255);
+    background-color: rgb(42, 130, 165);
+    border-radius: 4px;
+    color: white;
+    transition: 1s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+button:hover{
+    background-color: green;
+    border: 2px solid rebeccapurple;
+    cursor: pointer;
+}

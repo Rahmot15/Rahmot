@@ -1,0 +1,11 @@
+/* img{
+    -webkit-box-reflect: below 30px;
+} */
+
+
+img{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    object-position: 80% 100%;
+}
